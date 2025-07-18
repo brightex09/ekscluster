@@ -14,8 +14,7 @@ This project provisions a **Kubernetes cluster on AWS using Terraform**, followi
 ## 📁 Project Structure
 
 eks-cluster/
-│
-├── main.tf # Main Terraform configuration
-├── variables.tf # Input variables for customization
-├── terraform.tfstate # Local Terraform state (ignored in Git)
-├── terraform.tfstate.backup
+- main.tf # Main Terraform configuration
+- variables.tf # Input variables for customization
+- terraform.tfstate # Local Terraform state (ignored in Git)
+- terraform.tfstate.backup
